@@ -1,0 +1,399 @@
+{
+ "contract": "thread-tracker/1",
+ "stream": "main",
+ "generated_at": "2026-11-13T16:00:00-05:00",
+ "tracker": {
+  "title": "Winter fair",
+  "eyebrow": "Lakeview Parent Council \u00b7 fictional demo",
+  "sub": "Every idea from the council emails, the call notes, and the replies that went to one person. Tap a bubble for the context and a reply that lands back in the folder.",
+  "me": "you@example.com",
+  "tag": "you+council@example.com",
+  "topics": [
+   {
+    "key": "plan",
+    "name": "The plan",
+    "slot": 1
+   },
+   {
+    "key": "fair",
+    "name": "Fair day",
+    "slot": 4
+   },
+   {
+    "key": "bake",
+    "name": "Bake sale",
+    "slot": 3
+   },
+   {
+    "key": "vols",
+    "name": "Volunteers",
+    "slot": 2
+   }
+  ],
+  "keydates": [
+   {
+    "label": "Fair",
+    "text": "Sat Dec 12, gym 9\u20133"
+   },
+   {
+    "label": "Raffle licence",
+    "text": "in by Nov 27"
+   }
+  ],
+  "selected": "float"
+ },
+ "source": {
+  "note": "Fictional demo data. 11 events from 9 emails and 1 call."
+ },
+ "events": [
+  {
+   "id": "kick",
+   "t": "plan",
+   "date": "2026-10-27",
+   "time": "8:12 pm",
+   "who": "You",
+   "whoShort": "You",
+   "idea": "Kickoff: one winter fair, three jobs",
+   "points": [
+    "Pick a date before the break",
+    "Bake sale + used-book table + photo booth",
+    "Need 12 volunteers, two shifts"
+   ],
+   "context": "Opened the thread to the whole council.",
+   "subject": "Winter fair: let's do this",
+   "to": [
+    "priya@example.com",
+    "marco@example.com",
+    "dana@example.com",
+    "tom@example.com",
+    "aisha@example.com",
+    "lee@example.com"
+   ],
+   "toLabel": "Full council (reply all)",
+   "url": "https://mail.google.com/mail/#all/kick",
+   "small": false,
+   "isNew": false
+  },
+  {
+   "id": "date",
+   "t": "fair",
+   "date": "2026-10-28",
+   "time": "7:40 am",
+   "who": "Dana Reyes",
+   "whoShort": "Dana",
+   "idea": "Sat Dec 12 works, gym is free",
+   "points": [
+    "Checked the school calendar",
+    "Gym free 9\u20133",
+    "Basketball has it after 3"
+   ],
+   "context": "First reply. Everyone else went quiet for four days.",
+   "subject": "Winter fair: let's do this",
+   "to": [
+    "priya@example.com",
+    "marco@example.com",
+    "dana@example.com",
+    "tom@example.com",
+    "aisha@example.com",
+    "lee@example.com"
+   ],
+   "toLabel": "Full council (reply all)",
+   "url": "https://mail.google.com/mail/#all/date",
+   "small": false,
+   "isNew": false
+  },
+  {
+   "id": "bake",
+   "t": "bake",
+   "date": "2026-11-02",
+   "time": "10:05 pm",
+   "who": "Marco Bianchi",
+   "whoShort": "Marco",
+   "idea": "I'll run the bake sale \u2014 nut-free only",
+   "points": [
+    "Nut-free rule from the school",
+    "Wants a sign-up sheet for bakers",
+    "Asks: do we need a float?"
+   ],
+   "context": "Replied to you only, not the group. Nobody else knows Marco said yes.",
+   "subject": "Re: Winter fair",
+   "to": [
+    "marco@example.com"
+   ],
+   "toLabel": "Marco",
+   "url": "https://mail.google.com/mail/#all/bake",
+   "small": false,
+   "isNew": false
+  },
+  {
+   "id": "books",
+   "t": "fair",
+   "date": "2026-11-03",
+   "time": "6:18 pm",
+   "who": "Aisha Khan",
+   "whoShort": "Aisha",
+   "idea": "Library will donate 200 withdrawn books",
+   "points": [
+    "Librarian confirmed",
+    "Pick up from room 114",
+    "Price at $1 / $2"
+   ],
+   "context": "Sent from her personal address \u2014 skipped the council tag. Forwarded in.",
+   "subject": "books!!",
+   "to": [
+    "aisha@example.com"
+   ],
+   "toLabel": "Aisha",
+   "url": "https://mail.google.com/mail/#all/books",
+   "small": true,
+   "isNew": false
+  },
+  {
+   "id": "call",
+   "t": "plan",
+   "date": "2026-11-05",
+   "time": "7:30 pm",
+   "who": "Council call (minutes)",
+   "whoShort": "Call",
+   "idea": "Photo booth is out, raffle is in",
+   "points": [
+    "Photo booth vendor too pricey",
+    "Raffle: 3 prizes, local businesses",
+    "Tom to ask the bakery and bike shop"
+   ],
+   "context": "Decided on the call. Never made it back to email until now.",
+   "subject": "Council call notes",
+   "to": [
+    "priya@example.com",
+    "marco@example.com",
+    "dana@example.com",
+    "tom@example.com",
+    "aisha@example.com",
+    "lee@example.com"
+   ],
+   "toLabel": "Full council (reply all)",
+   "url": "https://docs.google.com/document/d/example",
+   "small": false,
+   "isNew": false
+  },
+  {
+   "id": "licence",
+   "t": "plan",
+   "date": "2026-11-06",
+   "time": "9:02 am",
+   "who": "Ms. Okafor (Principal)",
+   "whoShort": "Ms. Okafor",
+   "idea": "Raffles need a licence \u2014 talk to the office",
+   "points": [
+    "Board rule: any raffle needs a licence",
+    "Office can help with the form",
+    "Allow two weeks"
+   ],
+   "context": "Answers the call decision. The raffle is now on a clock.",
+   "subject": "Re: Council call notes",
+   "to": [
+    "okafor@example.com"
+   ],
+   "toLabel": "Ms. Okafor",
+   "url": "https://mail.google.com/mail/#all/licence",
+   "small": false,
+   "isNew": false
+  },
+  {
+   "id": "prizes",
+   "t": "plan",
+   "date": "2026-11-09",
+   "time": "4:44 pm",
+   "who": "Tom Walsh",
+   "whoShort": "Tom",
+   "idea": "Bakery's in. Bike shop wants a logo",
+   "points": [
+    "Bakery: $100 gift card",
+    "Bike shop: helmet + tune-up",
+    "They want their logo on the poster"
+   ],
+   "context": "Replied to Ms. Okafor's thread, not the call thread.",
+   "subject": "Re: Council call notes",
+   "to": [
+    "tom@example.com"
+   ],
+   "toLabel": "Tom",
+   "url": "https://mail.google.com/mail/#all/prizes",
+   "small": false,
+   "isNew": false
+  },
+  {
+   "id": "float",
+   "t": "bake",
+   "date": "2026-11-10",
+   "time": "8:15 am",
+   "who": "Lee Park (Treasurer)",
+   "whoShort": "Lee",
+   "idea": "$150 float, sign it out from the office",
+   "points": [
+    "Cash box in the office",
+    "Sign out Friday, back Monday",
+    "Also: take e-transfer, it's easier"
+   ],
+   "context": "Answers Marco's float question \u2014 but Marco wasn't on this email.",
+   "subject": "Treasurer stuff",
+   "to": [
+    "lee@example.com"
+   ],
+   "toLabel": "Lee",
+   "url": "https://mail.google.com/mail/#all/float",
+   "small": true,
+   "isNew": false
+  },
+  {
+   "id": "vols",
+   "t": "vols",
+   "date": "2026-11-12",
+   "time": "9:47 pm",
+   "who": "Priya Shah",
+   "whoShort": "Priya",
+   "idea": "Sign-up sheet is live: 7 of 12 filled",
+   "points": [
+    "Two shifts: 9\u201312, 12\u20133",
+    "Setup crew still empty",
+    "Grade 9 parents are keen"
+   ],
+   "context": "Shared a sheet link. Nobody has taken setup.",
+   "subject": "Volunteers for Dec 12",
+   "to": [
+    "priya@example.com",
+    "marco@example.com",
+    "dana@example.com",
+    "tom@example.com",
+    "aisha@example.com",
+    "lee@example.com"
+   ],
+   "toLabel": "Full council (reply all)",
+   "url": "https://mail.google.com/mail/#all/vols",
+   "small": false,
+   "isNew": true
+  },
+  {
+   "id": "poster",
+   "t": "fair",
+   "date": "2026-11-13",
+   "time": "11:20 am",
+   "who": "Dana Reyes",
+   "whoShort": "Dana",
+   "idea": "Poster draft \u2014 needs the bike shop logo",
+   "points": [
+    "Draft attached",
+    "Goes in Friday newsletter",
+    "Waiting on the logo from Tom"
+   ],
+   "context": "Two loops meet here: the poster can't go out until the logo does.",
+   "subject": "Poster draft",
+   "to": [
+    "priya@example.com",
+    "marco@example.com",
+    "dana@example.com",
+    "tom@example.com",
+    "aisha@example.com",
+    "lee@example.com"
+   ],
+   "toLabel": "Full council (reply all)",
+   "url": "https://mail.google.com/mail/#all/poster",
+   "small": false,
+   "isNew": true
+  },
+  {
+   "id": "nutfree",
+   "t": "bake",
+   "date": "2026-11-13",
+   "time": "3:02 pm",
+   "who": "Marco Bianchi",
+   "whoShort": "Marco",
+   "idea": "Label every item, list ingredients",
+   "points": [
+    "Office wants ingredient cards",
+    "He'll print 60 cards",
+    "Bakers drop off 8\u20139 am"
+   ],
+   "context": "Marco's first email to the whole group.",
+   "subject": "Bake sale rules",
+   "to": [
+    "priya@example.com",
+    "marco@example.com",
+    "dana@example.com",
+    "tom@example.com",
+    "aisha@example.com",
+    "lee@example.com"
+   ],
+   "toLabel": "Full council (reply all)",
+   "url": "https://mail.google.com/mail/#all/nutfree",
+   "small": true,
+   "isNew": true
+  }
+ ],
+ "loops": [
+  {
+   "t": "plan",
+   "status": "open",
+   "q": "Get the raffle licence form to the office",
+   "src": "Ms. Okafor, Nov 6: needs two weeks. Fair is Dec 12, so the form has to go in by Nov 27.",
+   "due": "By Fri Nov 27",
+   "ev": "licence"
+  },
+  {
+   "t": "fair",
+   "status": "open",
+   "q": "Get the bike shop logo to Dana",
+   "src": "Bike shop asked for it Nov 9 (Tom). Poster is waiting on it.",
+   "due": "Before Friday's newsletter",
+   "ev": "poster"
+  },
+  {
+   "t": "vols",
+   "status": "open",
+   "q": "Find a setup crew (8\u20139 am)",
+   "src": "Priya's sheet: 7 of 12 filled, setup still empty.",
+   "due": "Week of Dec 7",
+   "ev": "vols"
+  },
+  {
+   "t": "bake",
+   "status": "open",
+   "q": "Tell Marco the float answer",
+   "src": "Lee answered on Nov 10 \u2014 but Marco wasn't on that email.",
+   "due": "This week",
+   "ev": "float"
+  },
+  {
+   "t": "fair",
+   "status": "open",
+   "q": "Pick up 200 books from room 114",
+   "src": "Aisha, Nov 3. No one's named for pickup.",
+   "due": "Before Dec 12",
+   "ev": "books"
+  },
+  {
+   "t": "fair",
+   "status": "closed",
+   "q": "Pick a date",
+   "src": "Closed Oct 28: Sat Dec 12, gym 9\u20133 (Dana).",
+   "due": "",
+   "ev": "date"
+  },
+  {
+   "t": "bake",
+   "status": "closed",
+   "q": "Who runs the bake sale?",
+   "src": "Closed Nov 2: Marco (replied to you only).",
+   "due": "",
+   "ev": "bake"
+  },
+  {
+   "t": "plan",
+   "status": "closed",
+   "q": "Photo booth or raffle?",
+   "src": "Closed Nov 5: raffle, on the call.",
+   "due": "",
+   "ev": "call"
+  }
+ ]
+}
